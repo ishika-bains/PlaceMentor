@@ -1,0 +1,26 @@
+{
+  "name": "placementor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PlaceMentor — AI-Powered Placement Preparation Platform",
+  "scripts": {
+    "client": "npm --prefix client run dev",
+    "server": "npm --prefix server run dev",
+    "build:client": "npm --prefix client run build",
+    "seed": "npm --prefix server run seed",
+    "install:all": "npm --prefix server install && npm --prefix client install"
+  },
+  "keywords": [
+    "placement-preparation",
+    "aptitude",
+    "logical-reasoning",
+    "verbal-ability",
+    "core-cs",
+    "mock-interview",
+    "group-discussion",
+    "webrtc",
+    "socketio"
+  ],
+  "author": "PlaceMentor Team",
+  "license": "MIT"
+}
